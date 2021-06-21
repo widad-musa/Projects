@@ -131,7 +131,7 @@ def update_student():
             if len(row) > 0:
                 if idno == row[0]:
                     index_student = counter
-                    print("Student Found: at index ",index_student)
+                    print("Student Found: ",index_student)
                     student_data = []
                     for field in student_fields:
                         value = input("Enter " + field + ": ")
